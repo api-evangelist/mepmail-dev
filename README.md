@@ -1,4 +1,4 @@
-# mepmail-dev
+# MepMail
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,161 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mepmail-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mepmail.dev/
+MepMail provides an Email API and mailbox service for applications and AI agents. It offers sending, receiving, and managing email through a modern RESTful interface, with support for SMTP and MCP integrations. The platform includes features like delivery statistics, bounce handling, and abuse protection, targeting developers building communication capabilities into their products.
+
+**Areas:** Email · API · Service · Communication · Developer
+
+## MepMail on APIs.io
+
+Everything profiled for MepMail is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mepmail-dev/](https://apis.io/providers/mepmail-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [MepMail Account API](https://apis.io/apis/mepmail-dev/mepmail-dev-account-api/) — Plan, usage and deliverability of the team.
+- [MepMail API keys API](https://apis.io/apis/mepmail-dev/mepmail-dev-api-keys-api/) — Keys that authenticate API calls.
+- [MepMail Audiences API](https://apis.io/apis/mepmail-dev/mepmail-dev-audiences-api/) — Resend's audience-scoped contact routes, kept for SDK compatibility.
+- [MepMail Broadcasts API](https://apis.io/apis/mepmail-dev/mepmail-dev-broadcasts-api/) — One email to a whole segment.
+- [MepMail Contact properties API](https://apis.io/apis/mepmail-dev/mepmail-dev-contact-properties-api/) — Custom fields stored on every contact.
+- [MepMail Contacts API](https://apis.io/apis/mepmail-dev/mepmail-dev-contacts-api/) — The people you send to, their topics and segments.
+- [MepMail Domains API](https://apis.io/apis/mepmail-dev/mepmail-dev-domains-api/) — Sending domains and their DNS records.
+- [MepMail Emails API](https://apis.io/apis/mepmail-dev/mepmail-dev-emails-api/) — Send, schedule, read and cancel emails.
+- [MepMail Segments API](https://apis.io/apis/mepmail-dev/mepmail-dev-segments-api/) — Saved contact filters for broadcasts.
+- [MepMail Suppressions API](https://apis.io/apis/mepmail-dev/mepmail-dev-suppressions-api/) — Addresses MepMail will not send to (bounces, complaints, unsubscribes).
+- [MepMail Templates API](https://apis.io/apis/mepmail-dev/mepmail-dev-templates-api/) — Reusable email content.
+- [MepMail Topics API](https://apis.io/apis/mepmail-dev/mepmail-dev-topics-api/) — Subscription topics contacts can opt in and out of.
+- [MepMail Webhooks API](https://apis.io/apis/mepmail-dev/mepmail-dev-webhooks-api/) — Signed event deliveries to your endpoints.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Mepmail Dev Webhooks](https://apis.io/asyncapis/mepmail-dev/mepmail-dev-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [MepMail Agentic Access](https://apis.io/agentic-access/mepmail-dev/mepmail-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BatchGetContactsResponse](https://apis.io/schemas/mepmail-dev/mepmail-dev-batch-get-contacts-response/)
+- [CreateDomainResponse](https://apis.io/schemas/mepmail-dev/mepmail-dev-create-domain-response/)
+- [GetDomainResponse](https://apis.io/schemas/mepmail-dev/mepmail-dev-get-domain-response/)
+- [ListContactsResponse](https://apis.io/schemas/mepmail-dev/mepmail-dev-list-contacts-response/)
+- [SendEmailRequest](https://apis.io/schemas/mepmail-dev/mepmail-dev-send-email-request/)
+- [UsageResponse](https://apis.io/schemas/mepmail-dev/mepmail-dev-usage-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mepmail Dev Context](https://apis.io/jsonld/mepmail-dev/mepmail-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MepMail API Rules](https://apis.io/rules/mepmail-dev/mepmail-dev-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MepMail Authentication](https://apis.io/security/mepmail-dev/mepmail-dev-authentication/)
+- [MepMail Domain Security](https://apis.io/security/mepmail-dev/mepmail-dev-domain-security/)
+- [MepMail Trust Center](https://apis.io/security/mepmail-dev/mepmail-dev-trust-center/)
+- [MepMail Vulnerability Disclosure](https://apis.io/security/mepmail-dev/mepmail-dev-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [MepMail Plans Pricing](https://apis.io/plans/mepmail-dev/mepmail-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [MepMail Rate Limits](https://apis.io/rate-limits/mepmail-dev/mepmail-dev-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mepmail.dev/)
+- [Documentation](https://docs.mepmail.dev/)
+- [Getting started](https://docs.mepmail.dev/quickstart)
+- [API reference](https://docs.mepmail.dev/api-reference)
+- [Pricing](https://mepmail.dev/pricing)
+- [Sign up](https://mepmail.dev/signup)
+- [Support](https://mepmail.dev/support)
+- [Changelog](https://mepmail.dev/changelog)
+- [Security](https://mepmail.dev/security)
+- [Compliance](https://mepmail.dev/security)
+- [Terms of service](https://mepmail.dev/terms)
+- [Privacy policy](https://mepmail.dev/privacy)
+- [GitHub](https://github.com/je4ndev)
+- [Status](https://mepmail.dev/status)
+
+## API Evangelist rating
+
+**Kin Score 80.6** — exemplar · rubric 0.27.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 70.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 83.7 |
+| Developer ergonomics | 75.5 |
+| Access clarity | 88.9 |
+
+**Agent readiness 75.0** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mepmail-dev/](https://apis.io/providers/mepmail-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MepMail: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mepmail-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
